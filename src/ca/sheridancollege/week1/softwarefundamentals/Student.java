@@ -12,6 +12,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int num;
+
+    public int getNum() {
+        return num;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
+    }
 
     /**
      * Get the value of name
