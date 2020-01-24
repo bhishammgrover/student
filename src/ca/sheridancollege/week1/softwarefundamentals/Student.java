@@ -12,22 +12,12 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
-    private int num;
-
-    
-    public int getNum() {
-        return num;
-    }
 
     /**
      * Get the value of name
      *
      * @return the value of name
      */
-    public void setNum(int num) {    
-        this.num = num;
-    }
-
     public String getName() {
         return name;
     }
