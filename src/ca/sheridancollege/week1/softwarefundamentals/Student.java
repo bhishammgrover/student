@@ -12,7 +12,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+private String status;
 
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
     /**
      * Get the value of name
      *
