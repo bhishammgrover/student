@@ -18,7 +18,7 @@ public class StudentList {
         for (int i=0;i<sList.length;i++)
         {
             sList[i]=new Student();
-            sList[i].setName("Student" +(i+1));
+            sList[i].setName("saksham" +(i+1));
         }
         
         for (int i=0;i<sList.length;i++)
